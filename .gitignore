@@ -1,0 +1,4 @@
+node_modules/
+contacts.db
+.env
+.DS_Store 
