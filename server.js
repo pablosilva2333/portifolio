@@ -15,7 +15,7 @@ const SESSION_SECRET = process.env.SESSION_SECRET || 'sua_chave_secreta_muito_se
 // Middleware
 app.use(cors({
     origin: process.env.NODE_ENV === 'production' 
-        ? ['https://seu-dominio.com', 'https://www.seu-dominio.com'] 
+        ? ['https://portifolio-3bpr.onrender.com', 'https://www.portifolio-3bpr.onrender.com'] 
         : 'http://localhost:3000',
     credentials: true
 }));

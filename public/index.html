@@ -243,7 +243,7 @@
                 submitButton.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Enviando...';
                 
                 // Send data to server
-                const response = await fetch('http://localhost:3000/api/submit-form', {
+                const response = await fetch('https://portifolio-3bpr.onrender.com/api/submit-form', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
