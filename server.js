@@ -62,7 +62,7 @@ db.serialize(() => {
             console.error(err.message);
         } else {
             // Inserir usuário admin se não existir
-            const adminPassword = 'brasil123';
+            const adminPassword = process.env.SENHA_ADMIN;
             bcrypt.hash(adminPassword, 10, (err, hash) => {
                 if (err) {
                     console.error(err.message);
